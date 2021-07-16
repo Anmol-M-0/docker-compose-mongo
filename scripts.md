@@ -65,5 +65,6 @@ volumes:
 ### Docker volume locations
 - windows: C:\ProgramData\docker\volumes
 - linux: /var/lib/docker/volumes
-- osx: /var/lib/docker/volumes
+- macos: /var/lib/docker/volumes
 
+note: in case of mac, you wont find the volumes directory directly on your computer, because mac creates a virtual linux machine and runs docker on it, and the volumes directory is stored on that vm.
