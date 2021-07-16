@@ -62,5 +62,8 @@ example:
 volumes:
     - db-data:/var/lib/mysql/data
 
-
+### Docker volume locations
+- windows: C:\ProgramData\docker\volumes
+- linux: /var/lib/docker/volumes
+- osx: /var/lib/docker/volumes
 
